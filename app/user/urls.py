@@ -9,5 +9,5 @@ from user import views
 app_name = 'user'
 
 urlpatterns = [
-    path('create/', views.CreatedUserView.as_view(), name='create'),
+    path('register/', views.CreateUserView.as_view(), name='create'),
 ]
